@@ -1,8 +1,13 @@
-import { lexer } from './lexer'
+import { lexer } from './lexer';
+const chalk = require('chalk');
+
+const c = new chalk.Instance({
+    enabled: true
+})
 
 const main = (): void => {
-    console.log('main');
+    console.log(c.red('main'));
     lexer();
 }
 
-main()
+main();
