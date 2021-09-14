@@ -1,0 +1,28 @@
+{
+  "name": "fuck-js-compiler-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsweber/fuck-js-compiler-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsweber/fuck-js-compiler-demo/issues"
+  },
+  "homepage": "https://github.com/jsweber/fuck-js-compiler-demo#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.3",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
