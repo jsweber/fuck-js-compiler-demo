@@ -23,7 +23,7 @@ class Lexer {
 			// 注释去掉
 			if (c === '/'){
 				if (lookahead === '/'){
-					while(it.hasNext && (c = it.next()) !== '\n') {}
+					while(it.hasNext() && (c = it.next()) !== '\n') {}
 				} else if (lookahead === '*') {
 					let valid = false
 					while(it.hasNext()){
